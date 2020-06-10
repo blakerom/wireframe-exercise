@@ -34,15 +34,15 @@ main {
 main > img:first-child {
   margin-top: 30px;
 }
-ul {
+main ul {
    margin-top: 30px;
    overflow: hidden;
 }
-ul li {
+main ul li {
   float: left;
   margin-right: 30px;
 }
-ul li:nth-child(3n) {
+main ul li:nth-child(3n) {
   margin-right: 0;
 }
 article {
@@ -61,7 +61,7 @@ article h2 {
   font-size: 20px;
   font-weight: bold;
 }
-article p {
+article section p {
   font-size: 18px;
   overflow: auto;
   height: 330px;
@@ -74,6 +74,7 @@ article button {
   background-color: #111;
   color: #eee;
   font-size: 16px;
+  border-radius: 2px;
 }
 /* https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ */
 article button:hover {
